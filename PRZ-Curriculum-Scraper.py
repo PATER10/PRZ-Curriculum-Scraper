@@ -8,34 +8,10 @@ import uuid
 # ==========================================================
 # 1. CONFIGURATION AND ID MAPS
 # ==========================================================
-FACULTY_MAP = {
-    "weii": "d096c417-e832-4d3b-a7be-b8fac1a99131"
-}
-
-DIRECTION_MAP = {
-    "weii-ce": "c032603c-b733-4b2c-bb62-f782145cb462",
-    "weii-acr": "de4f6f47-12c8-4027-a9cb-957b79cc2c0f",
-    "weii-e": "18533be4-580c-4505-9811-c4d7492b71c3",
-    "weii-et": "89f4087f-3883-4c9a-a435-2f20711fcb4b",
-    "weii-ee": "067053b8-9a03-43f7-a38f-2aee3e52e3d2",
-
-}
-
-SPECIALIZATION_MAP = {
-    "weii-ce-aa": "b7ad56f6-f72c-4449-ac9e-8db4b2c9bf22",
-    "weii-ce-z": "3957c812-34e8-437d-8d08-00f39011c06d",
-    "weii-ce-tt": "b9774665-9b5c-4481-b795-d999f65eeb5a",
-    "weii-ce-ai": "ab5a7101-14e3-4d89-9d27-3a9ebec027b8",
-    "weii-acr-Automation of manufacturing and intralogistics systems": "ceca64e1-bcc2-4e29-b88b-23e20c139f4a",
-    "weii-acr-Computer control systems": "12521aa2-265a-4afc-aa8a-95351c9c3555",
-    "weii-e-Electromobility": "25ed19ce-0981-4663-bbd3-9a32a7065ff9",
-    "weii-et-s": "b17d7e64-e82e-44b6-a931-83fd0849835b",
-    "weii-et-t": "81bc8f1d-e6f0-40d8-9ce4-a5993e211b11",
-    "weii-et-u": "bc0a2ceb-0024-4ebd-99c7-78ebe54a03a6",
-    "weii-ee-Electric Drive Systems in Power Engineering, Motorization and Aviation": "1d8dfd4d-6a16-4084-920f-a0f8fc87d1cf",
-    "weii-ee-Electric power engineering": "dc99756a-6d7a-41c0-a19a-2d349fbf6640",
-    "weii-ee-Odnawialne źródła energii i technika świetlna": "a3da333a-04a0-48ed-a593-8314203b455d",
-}
+from ID_MAPS import FACULTY_MAP, DIRECTION_MAP, SPECIALIZATION_MAP
+# FACULTY_MAP = {
+#     "weii": "uuid"
+# }
 
 # --- List of colors for subjects ---
 SUBJECT_COLORS = [

@@ -45,3 +45,5 @@ venv.bak/
 # Ignorujemy wygenerowane dane, aby repozytorium zawierało tylko kod
 *.csv
 *.json
+
+ID_MAPS.py
